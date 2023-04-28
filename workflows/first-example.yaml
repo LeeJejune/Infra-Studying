@@ -1,0 +1,8 @@
+name: Github Action Jejune First Example
+run-name: Hello World!!
+on: [push]
+jobs:
+  hello_world_github_actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world"
